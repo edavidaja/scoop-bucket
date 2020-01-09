@@ -1,4 +1,13 @@
 # scoop bucket
 
-- [rstudio daily](https://dailies.rstudio.com/)
-    - based on [rstudio](https://github.com/lukesampson/scoop-extras/blob/master/bucket/rstudio.json)
+```
+scoop bucket add edavidaja https://github.com/edavidaja/scoop-bucket
+```
+
+## [rstudio daily](https://dailies.rstudio.com/)
+
+```
+scoop install rstudio-daily
+```
+
+based on [extras/rstudio](https://github.com/lukesampson/scoop-extras/blob/master/bucket/rstudio.json)

@@ -41,6 +41,5 @@
                 "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-$version.zip"
             }
         }
-    },
-    "notes": "For 32bit, please install 'versions/rstudio11"
+    }
 }
