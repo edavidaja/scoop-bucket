@@ -1,7 +1,8 @@
 name: Update rstudio daily
 
 on:
-  schedule: '* */6 * * *'
+  schedule:
+    - cron: '* */6 * * *'
 
 jobs:
   build:
