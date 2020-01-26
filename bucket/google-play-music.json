@@ -9,12 +9,12 @@
             "hash": "094690edc5b7a40b86b64a86df8c2140d35c3a801f5c1a990aede3227df70de5"
         }
     },
-    "bin": "playmusic",
+    "installer": "file",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/releases/download/v$version/Google.Play.Music.Desktop.Player.Setup.exe#/"
+                "url": "https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/releases/download/v$version/Google.Play.Music.Desktop.Player.Setup.exe"
             }
         }
     }
