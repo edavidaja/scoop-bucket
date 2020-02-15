@@ -1,12 +1,12 @@
 {
-    "version": "1.3.838",
+    "version": "1.3.839",
     "homepage": "https://www.rstudio.com/",
     "description": "An IDE for R, which includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-1.3.838.zip",
-            "hash": "3e47951bb4b9f506a55974091e18f31b2c2bd2b62be98492122770a9bb26cc4f",
+            "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-1.3.839.zip",
+            "hash": "41588e31124039d80054720d14a8fc6cdc4910f3d4c91913ffd44b9f943d2d76",
             "post_install": [
                 "if (!(Test-Path \"$env:Appdata\\RStudio\")) {",
                 "    New-Item \"$env:Appdata\\RStudio\" -ItemType Directory -Force | Out-Null",
