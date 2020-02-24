@@ -2,7 +2,7 @@ name: Update rstudio daily
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */8 * * *'
 
 jobs:
   build:
@@ -15,7 +15,7 @@ jobs:
         run: |
           Set-ExecutionPolicy RemoteSigned -scope CurrentUser
           iwr -useb get.scoop.sh | iex
-          .\bin\checkver.ps1 -App rstudio-daily -Update
+          .\bin\checkver.ps1 -App * -Update
         shell: powershell
       - name: Commit files
         run: |
