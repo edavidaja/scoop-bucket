@@ -2,11 +2,11 @@
     "homepage": "https://github.com/tobya/DocTo",
     "description": "Simple command line utility for converting .doc & .xls files to any supported format such as Text, RTF, CSV or PDF",
     "license": "MIT",
-    "version": "1.3",
+    "version": "1.7",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tobya/DocTo/releases/download/V1.3/docto.zip",
-            "hash": "04e9ac13067fa5515d146fbc072eb645bf32a9a147dd96729e635845f441e22c"
+            "url": "https://github.com/tobya/DocTo/releases/download/V1.7/docto.zip",
+            "hash": "158f19c31af986a2235acc1c43e9f7ee895da4e78d0758198942a3b43ff657d1"
         }
     },
     "bin": "docto.exe",
